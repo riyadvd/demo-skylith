@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $(this).scrollTop(0);
+});
+
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
