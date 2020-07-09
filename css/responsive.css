@@ -67,4 +67,11 @@
     .people-font {
         font-size: 23px;
     }
+    .navbar{
+        position: absolute;
+        z-index: 99;
+    }
+    #video{
+        padding-top: 3rem;
+    }
 }
