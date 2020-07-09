@@ -57,5 +57,14 @@
     .logo{
         width:194%;
     }
-    
+    .video-content {
+        top: 7rem;
+    }
+    .products-font {
+        font-size: 22px;
+        line-height: 1.5rem;
+    }
+    .people-font {
+        font-size: 25px;
+    }
 }
