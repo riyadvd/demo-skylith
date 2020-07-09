@@ -55,7 +55,7 @@
         width:12%;
     }
     .logo{
-        width:194%;
+        width:70%;
     }
     .video-content {
         top: 7rem;
@@ -76,5 +76,34 @@
     }
     #project-btn{
         display: none;
+    }
+}
+
+@media screen and (max-width:797px){
+    .logo {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width:678px){
+    .logo {
+        width: 101%;
+    }
+}
+@media screen and (max-width:561px){
+    .logo {
+        width: 122%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .logo {
+        width: 143%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .logo {
+        width: 191%;
     }
 }
