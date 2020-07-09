@@ -1,0 +1,61 @@
+@media screen and (max-width:991px){
+    .who {
+        padding-left: 1rem;
+    }
+    .who::before {
+        display:none;
+    }
+
+    .brand{
+        padding-left:1rem;
+    }
+    .details-padding {
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+
+    .projects-row {
+     padding-left:0rem;
+    }
+
+    .box-spacing{
+        margin-left:1rem;
+        padding-right:0rem;
+    }
+    .testimonial-bg {
+        height: 21rem;
+        margin-left: 0px;
+    }
+    .carousel-caption {
+        right: 0%;
+        padding-top: 3rem;
+        padding-bottom: 0;
+        padding-right: 0rem;
+        padding-left: 0rem;
+        left: 0;
+    }
+    .carousel {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top:3rem;
+    }
+    .testimonial-font::before{
+        font-size:22px;
+      }
+    .testimonial-font::after{
+    font-size:22px;
+    }
+    .testimonial-font {
+    font-size: 20px;
+    }    
+    .carousel-indicators {
+        padding-left: 3.5rem;
+    }
+    .navbar-brand{
+        width:12%;
+    }
+    .logo{
+        width:194%;
+    }
+    
+}

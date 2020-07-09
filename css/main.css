@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-grey{
   color:rgb(107, 107, 107);
 }
@@ -437,3 +441,19 @@
 #social a .fa-twitter:hover{
 color:#1da1f2;
 }
+
+#social-mobile a:hover{
+  text-decoration: none;
+ }
+ 
+ #social-mobile a .fa-facebook:hover{
+   color:#3b5998;
+ }
+ 
+ #social-mobile a .fa-instagram:hover{
+   color:#ab2bb9;
+ }
+ 
+ #social-mobile a .fa-twitter:hover{
+ color:#1da1f2;
+ }

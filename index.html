@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Skylith</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up fa-lg fa-white" aria-hidden="true"></i></button>
 
 <header>
-  <nav class="nav-height position-fixed">
+  <nav class="nav-height position-fixed d-lg-block d-none">
     <a href="#" class="pl-2">
       <img src="images/logo.png" class="logo pt-4" alt="">
     </a>
@@ -36,6 +37,36 @@
         <a href="#"><i class="fa fa-twitter fa-lg d-block mt-3" aria-hidden="true"></i></a>
       </div>
   </nav>
+  <nav class="navbar navbar-expand-lg mb-2 navbar-light bg-light d-lg-none d-block">
+    <a class="navbar-brand py-0" href="#"><img src="images/logo.png" class="logo" alt=""></a>
+    <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <ul id="social-mobile" class="d-flex justify-content-end">
+            <a href="#"><i class="fa fa-facebook fa-lg d-block mt-3 mr-2" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-lg d-block mt-3 mr-2"  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-lg d-block mt-3" aria-hidden="true"></i></a>
+        </ul>
+        
+      </ul>
+      
+    </div>
+  </nav>
 </header>
 
 <div class="container-fluid px-0">
@@ -45,14 +76,14 @@
     </video>
   </div>
 
-  <div class="video-content text-center">
+  <div class="video-content text-center d-lg-block d-none">
     <h5 class="branding-font">NEW BRANDING AGENCY</h5>
     <h1 class="products-font my-4 pb-3">We create products that make <br> 
     <span class="people-font">people happy.</span></h1>
     <button type="button" class="btn btn-outline-light projects shadow-none">OUR PROJECTS</button>
   </div>
 
-  <div class="row w-100 my-5 py-5">
+  <div class="row w-100 my-lg-5 py-5">
     <div class="col-lg-2">
 
     </div>
@@ -115,25 +146,25 @@
   </div>
 
   <div class="row w-100">
-    <div class="col-lg-2">
+    <div class="col-lg-2 d-lg-block d-none">
 
     </div>
 
-    <div class="col-lg-3 mb-5">
+    <div class="col-lg-3 mb-5 box-spacing">
       <div class="services-border">
         <i class="fa fa-diamond services-icon fa-2x mb-4" aria-hidden="true"></i>
         <h5 class="services-title mb-3">WEB & UI/UX DESIGN</h5>
         <p class="services-content">Web design encompasses many different skills and disciplines in the production of all web.</p>
       </div>
     </div>
-    <div class="col-lg-3 ">
+    <div class="col-lg-3 mb-5 box-spacing">
       <div class="services-border">
         <i class="fa fa-ravelry services-icon fa-2x mb-4" aria-hidden="true"></i>
         <h5 class="services-title mb-3">WEB DEVELOPMENT</h5>
         <p class="services-content">Web development is a broad term for the work involved in developing a web site for the Internet.</p>
       </div>
     </div>
-    <div class="col-lg-3 ">
+    <div class="col-lg-3 box-spacing">
       <div class="services-border">
         <i class="fa fa-briefcase services-icon fa-2x mb-4" aria-hidden="true"></i>
         <h5 class="services-title mb-3">SEO & MARKETING</h5>
@@ -151,7 +182,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption ">
             <h5 class="testimonial-font">Outstanding job and exceeded all expectations. It was a pleasure
               to work with them on a sizable first project and am looking
               forward to start the next one asap.</h5>
@@ -160,7 +191,7 @@
         </div>
         <div class="carousel-item">
           
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption ">
             <h5 class="testimonial-font">Outstanding job and exceeded all expectations. It was a pleasure
               to work with them on a sizable first project and am looking
               forward to start the next one asap.</h5>
@@ -169,7 +200,7 @@
         </div>
         <div class="carousel-item">
           
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption ">
             <h5 class="testimonial-font">Outstanding job and exceeded all expectations. It was a pleasure
               to work with them on a sizable first project and am looking
               forward to start the next one asap.</h5>
@@ -181,16 +212,16 @@
     </div>
   </div>
 
-  <div class="row w-100 my-5 py-5">
+  <div class="row w-100 my-5 py-5 text-center">
     <div class="col-lg-2">
 
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 text-left">
       <div class="who">GET IN TOUCH</div>
       <div class="brand help-font mt-4">Need Help With <br> a Project?</div>
     </div>
     <div class="col-lg-5 details-padding">
-      <div class="my-3 font-grey">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful. Please get in touch and let’s schedule time to talk!</div>
+      <div class="my-3 font-grey text-left">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful. Please get in touch and let’s schedule time to talk!</div>
         <button type="button" class="btn touch-btn shadow-none mt-4 rounded-0 px-5 py-3">GET IN TOUCH</button>
     </div>
   </div>
