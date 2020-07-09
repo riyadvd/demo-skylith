@@ -176,6 +176,7 @@ html {
   }
 
   .branding-font{
+    font-family: "Playfair Display",serif;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -242,6 +243,10 @@ html {
   .projects-row{
     padding-left:5rem;
     height:400px;
+  }
+
+  #project-btn{
+    font-family: "Playfair Display",serif;
   }
 
 
